@@ -1,0 +1,34 @@
+{
+    "name": "boyo/laravel-sinch",
+    "description": "Laravel notifications with Sinch",
+    "keywords": ["laravel", "notifications", "sms", "sinch"],
+    "homepage": "https://github.com/boyanraichev/laravel-sinch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boyan Raichev",
+            "email": "myself@boyanr.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": ">=5.5",
+        "guzzlehttp/guzzle": "^6.3",
+        "boyo/bulglish": "*"
+    },
+    "autoload": {
+		"psr-4": {
+			"Boyo\\Mobica\\": "src/"
+    	}
+	},
+    "extra": {
+	    "laravel": {
+	        "providers": [
+	            "Boyo\\Sinch\\SinchServiceProvider"
+	        ],
+	        "aliases": {
+		        "MobicaChannel": "Boyo\\Sinch\\SinchChannel"
+	        }
+	    }
+    }
+}
