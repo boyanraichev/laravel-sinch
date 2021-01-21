@@ -12,7 +12,7 @@ Add the following to your services config file.
 
 ```php
 'sinch' => [
-	'api_key' => env('SINCH_KEY',''),
+	'api_key' => env('SINCH_API_KEY',''),
 	'service_plan_id' => env('SINCH_PLAN_ID',''),
 	'from' => env('SINCH_FROM',''),
 	'prefix' => '',

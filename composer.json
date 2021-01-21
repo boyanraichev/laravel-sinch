@@ -18,7 +18,7 @@
     },
     "autoload": {
 		"psr-4": {
-			"Boyo\\Mobica\\": "src/"
+			"Boyo\\Sinch\\": "src/"
     	}
 	},
     "extra": {
@@ -27,7 +27,7 @@
 	            "Boyo\\Sinch\\SinchServiceProvider"
 	        ],
 	        "aliases": {
-		        "MobicaChannel": "Boyo\\Sinch\\SinchChannel"
+		        "SinchChannel": "Boyo\\Sinch\\SinchChannel"
 	        }
 	    }
     }
